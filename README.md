@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Fairen/seed-crud-service.svg?branch=master)](https://travis-ci.org/Fairen/seed-crud-service)
+[![Coverage Status](https://coveralls.io/repos/github/Fairen/seed-crud-service/badge.svg?branch=master)](https://coveralls.io/github/Fairen/seed-crud-service?branch=master)
 # @fairen/seed-crud-service
 
 A basic and generic Angular Service
