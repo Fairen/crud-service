@@ -2,8 +2,8 @@ language : node_js
 node_js :  
   - stable 
 before_script:
-  - ln lib/crud.service.ts seed-crud-service/src/app/shared/services/crud.service.ts
-  - ln lib/crud.service.spec.ts seed-crud-service/src/app/shared/services/crud.service.spec.ts
+  - ln -f lib/crud.service.ts tests/src/app/shared/services/crud.service.ts
+  - ln -f lib/crud.service.spec.ts tests/src/app/shared/services/crud.service.spec.ts
   - cd tests
 install:  
   - npm install 
