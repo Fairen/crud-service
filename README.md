@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Fairen/seed-crud-service.svg?branch=master)](https://travis-ci.org/Fairen/seed-crud-service)
 # @fairen/seed-crud-service
 
 A basic and generic Angular Service
@@ -20,7 +21,7 @@ export class TodoService extends CrudService<Todo> {
   }
   
   ...
-  
+
 }
 ```
 
