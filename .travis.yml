@@ -5,7 +5,6 @@ before_script:
   - ln -f lib/crud.service.ts tests/src/app/shared/services/crud.service.ts
   - ln -f lib/crud.service.spec.ts tests/src/app/shared/services/crud.service.spec.ts
   - cd tests
-install:  
   - npm install 
 script:  
   - npm run ci:test
